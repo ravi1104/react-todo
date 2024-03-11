@@ -2,30 +2,11 @@
 
 This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site that can be deployed to Vercel with zero configuration.
 
-## Deploy Your Own
+## Hosted
 
-Deploy your own Create React App project with Vercel.
+Hosted link [https://react-todo-theta-ivory.vercel.app/](https://react-todo-theta-ivory.vercel.app/)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/create-react-app&template=create-react-app)
-
-_Live Example: https://create-react-template.vercel.app/_
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes. You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.
-
-It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes.
+Fetch and show todo items from the api - https://jsonplaceholder.typicode.com/todos
+Add a todo item, make a POST call to the above url (from where you are fetching) and save the item in react state. (This is a dummy request, you won’t be able to add items to the server. But the request is valid and will send you some data).
+Updated the item, make a PUT call to the above url. (Again this is a dummy call).
+Deleted an item, make a DELETE call to the above url. (Again this is a dummy call).
